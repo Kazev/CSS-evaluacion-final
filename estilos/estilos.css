@@ -1,4 +1,9 @@
+@font-face {
+  font-family: 'Indie Flower';
+
+}
 #Cabecera {
+  font-family: Indie Flower;
   color: white;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -29,4 +34,21 @@
   margin-right: 35%;
   margin-top: 1%;
   margin-bottom: 1%;
+}
+.Secundaria{
+  background-color: #d5c75f;
+  border: 1px solid black;
+  display: flex;
+}
+#imagen-izquierda{
+  padding: 10%;
+}
+#imagen-izquierda:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+  -webkit-box-shadow: 2px 2px #82c3a6;
+  -moz-box-shadow: 20px 2px #82c3a6;
+}
+#imagen-derecha{
+  padding: 10%;
 }
