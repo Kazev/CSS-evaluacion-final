@@ -1,12 +1,16 @@
 @font-face {
-  font-family: 'Indie Flower';
+  font-family: 'Dancing Script', cursive;
 
 }
 html{
   background-color: #02010a;
+  font-family: Dancing Script;
+}
+html img{
+  box-shadow: 2px 2px #02010a;
 }
 #Cabecera {
-  font-family: Indie Flower;
+  font-family: Dancing Script;
   color: white;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
@@ -27,15 +31,14 @@ html{
   float: right;
   margin-top: 0.5%;
   margin-right: 0.5%;
-  text-decoration:none;
 }
 .Central{
   background-color: #82c3a6;
 	display:block;
 }
 .Central img{
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -81,4 +84,15 @@ footer{
 }
 .derechos{
   margin: 5%
+}
+@media (min-width: 600px) {
+  .contenido{
+  width: 100%;
+  display: block;
+}
+}
+@media (min-width: 900px) {
+  .contenido{
+  max-width: 900px;
+}
 }
