@@ -2,6 +2,9 @@
   font-family: 'Indie Flower';
 
 }
+html{
+  background-color: #02010a;
+}
 #Cabecera {
   font-family: Indie Flower;
   color: white;
@@ -20,6 +23,7 @@
   display: inline;
 }
 #Cabecera ol{
+  color: white;
   float: right;
   margin-top: 0.5%;
   margin-right: 0.5%;
@@ -39,9 +43,10 @@
   background-color: #d5c75f;
   border: 1px solid black;
   display: flex;
+  align-items: center;
 }
 #imagen-izquierda{
-  padding: 10%;
+  margin: 15%;
 }
 #imagen-izquierda:hover{
   transform: rotate(10deg);
@@ -50,5 +55,30 @@
   -moz-box-shadow: 20px 2px #82c3a6;
 }
 #imagen-derecha{
-  padding: 10%;
+  margin: 15%;
+}
+#imagen-derecha:hover{
+  transform:translate(20px,-5px);
+  box-shadow: 2px 2px #82c3a6;
+  -webkit-box-shadow: 2px 2px #82c3a6;
+  -moz-box-shadow: 20px 2px #82c3a6;
+}
+footer{
+  background-color: #C6d5c5;
+  display:flex;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+}
+.contacto{
+  margin: 5%;
+}
+.terminos{
+  margin: 5%;
+}
+.redes-sociales{
+  margin: 5%;
+}
+.derechos{
+  margin: 5%
 }
