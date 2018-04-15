@@ -1,3 +1,4 @@
+/**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A INDEX.HTML**/
 @font-face {
   font-family: 'Dancing Script', cursive;
 
@@ -7,7 +8,7 @@ html{
   font-family: Dancing Script;
 }
 html img{
-  box-shadow: 2px 2px #02010a;
+  box-shadow: 2px 2px #02010a
 }
 #Cabecera {
   font-family: Dancing Script;
@@ -27,10 +28,8 @@ html img{
   display: inline;
 }
 #Cabecera ol{
-  color: white;
-  float: right;
-  margin-top: 0.5%;
-  margin-right: 0.5%;
+  color: white !important;
+  display:inline-flex;
 }
 .Central{
   background-color: #82c3a6;
@@ -66,7 +65,7 @@ html img{
   -webkit-box-shadow: 2px 2px #82c3a6;
   -moz-box-shadow: 20px 2px #82c3a6;
 }
-footer{
+footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   background-color: #C6d5c5;
   display:flex;
   border-radius: 0px 0px 10px 10px;
@@ -74,25 +73,101 @@ footer{
   -webkit-border-radius: 0px 0px 10px 10px;
 }
 .contacto{
-  margin: 5%;
+  width: 25%;
+  height: 25%;
+  margin: 1%;
 }
 .terminos{
-  margin: 5%;
+  width: 25%;
+  height: 25%;
+  margin: 1%;
 }
 .redes-sociales{
-  margin: 5%;
+  width: 25%;
+  height: 25%;
+  margin: 1%;
 }
 .derechos{
-  margin: 5%
+  width: 25%;
+  height: 25%;
+  margin: 1%;
 }
-@media (min-width: 600px) {
-  .contenido{
-  width: 100%;
-  display: block;
+/**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A INDEX.HTML**/
+
+/**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
+#Cabecera-paisajes {
+  font-family: Dancing Script;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
 }
+#Cabecera-paisajes h1{
+  text-shadow: 2px 2px #02010a;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  display: inline;
 }
-@media (min-width: 900px) {
-  .contenido{
-  max-width: 900px;
+#Cabecera-paisajes ol{
+  color: white !important;
+  display:inline-flex;
 }
+.paisajes img:first-child{
+  filter: blur(10px) !important;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
 }
+.paisajes img:nth-child(even){
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.paisajes img:nth-child(3){
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+}
+/**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
+
+/**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
+#Cabecera-retratos {
+  font-family: Dancing Script;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+}
+#Cabecera-retratos h1{
+  text-shadow: 2px 2px #02010a;
+  color: white;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  display: inline;
+}
+#Cabecera-retratos ol{
+  color: white !important;
+  display: inline-flex;
+}
+.retratos img:first-child{
+  filter: blur(10px) !important;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+}
+.retratos img:nth-child(even){
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.retratos img:nth-child(3){
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+
+/**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
