@@ -33,9 +33,7 @@ html img{
 	display:block;
 }
 .Central img{
-  display: block;
-  margin: auto;
-  padding: 1%;
+  margin: 1% 0% 1% 30%;
 }
 .Secundaria{
   background-color: #d5c75f;
@@ -44,9 +42,7 @@ html img{
   align-items: center;
 }
 #imagen-izquierda{
-  padding: 1%;
-  display: block;
-  margin: auto;
+  margin: 1% 0% 1% 15%;
 }
 #imagen-izquierda:hover{
   transform: rotate(10deg);
@@ -55,9 +51,7 @@ html img{
   -moz-box-shadow: 20px 2px #82c3a6;
 }
 #imagen-derecha{
-  padding: 1%;
-  display: block;
-  margin: auto;
+  margin: 1% 0% 1% 15%;
 }
 #imagen-derecha:hover{
   transform:translate(20px,-5px);
