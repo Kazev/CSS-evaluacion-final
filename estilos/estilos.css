@@ -42,7 +42,7 @@ html img{
   align-items: center;
 }
 #imagen-izquierda{
-  margin: 1% 0% 1% 15%;
+  margin: 2% 0% 10% 15%;
 }
 #imagen-izquierda:hover{
   transform: rotate(10deg);
@@ -51,13 +51,18 @@ html img{
   -moz-box-shadow: 20px 2px #82c3a6;
 }
 #imagen-derecha{
-  margin: 1% 0% 1% 15%;
+  margin: 2% 0% 10% 15%;
 }
 #imagen-derecha:hover{
   transform:translate(20px,-5px);
   box-shadow: 2px 2px #82c3a6;
   -webkit-box-shadow: 2px 2px #82c3a6;
   -moz-box-shadow: 20px 2px #82c3a6;
+}
+.Secundaria div a{
+  color: black;
+  display: flex;
+  margin: -10% 45% 2% 45%;
 }
 footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   background-color: #C6d5c5;
