@@ -10,7 +10,7 @@ html{
 html img{
   box-shadow: 2px 2px #02010a
 }
-#Cabecera {
+#Cabecera { /**Se aplica a las 3 hojas por igual**/
   font-family: Dancing Script;
   color: white;
   background-color: #5b7989;
@@ -18,13 +18,13 @@ html img{
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
 }
-#Cabecera h1{
+#Cabecera h1{ /**Se aplica a las 3 hojas por igual**/
   text-shadow: 2px 2px #02010a;
   display: inline;
 }
-#Cabecera ol{
+#Cabecera ol{ /**Se aplica a las 3 hojas por igual**/
   display:inline;
-  margin-left: 64%;
+  margin-left: 50%;
   margin-top: 0.5%;
   margin-right: 0.5%;
 }
@@ -71,47 +71,33 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
 }
-.contacto{
+.contacto{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
+  font-size: 14px;
 }
-.terminos{
+.terminos{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
+  font-size: 14px;
 }
-.redes-sociales{
+.redes-sociales{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
+  font-size: 14px;
 }
-.derechos{
+.derechos{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
+  font-size: 14px;
 }
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A INDEX.HTML**/
 
 /**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
-#Cabecera-paisajes {
-  font-family: Dancing Script;
-  color: white;
-  background-color: #5b7989;
-  border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 0px 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-}
-#Cabecera-paisajes h1{
-  text-shadow: 2px 2px #02010a;
-  display: inline;
-}
-#Cabecera-paisajes ol{
-  display:inline;
-  margin-left: 65%;
-  margin-top: 0.5%;
-  margin-right: 0.5%;
-  }
 .paisajes{
   background-color: #d5c75f;
   border: 1px solid black;
@@ -143,24 +129,7 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
 
 /**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
-#Cabecera-retratos {
-  font-family: Dancing Script;
-  color: white;
-  background-color: #5b7989;
-  border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 0px 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-}
-#Cabecera-retratos h1{
-  text-shadow: 2px 2px #02010a;
-  display: inline;
-}
-#Cabecera-retratos ol{
-  display:inline;
-  margin-left: 65%;
-  margin-top: 0.5%;
-  margin-right: 0.5%;
-}
+
 .retratos{
   background-color: #d5c75f;
   border: 1px solid black;
@@ -190,3 +159,20 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   margin: 1.5%;
 }
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
+
+/**Consideraciones generales mas slidein**/
+
+@media (max-width: 900px) {
+  .Contenido{
+    width: 100%;
+}
+}
+
+@media (min-width: 900px) {
+  .Contenido{
+    width: 900px;
+    display: block;
+    margin: auto;
+
+}
+}
