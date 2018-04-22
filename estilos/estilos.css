@@ -71,7 +71,7 @@ html img{
 }
 
 .Central img{
-  margin: 1% 0% 1% 30%;
+  margin: 1% 0% 1% 10%;
 }
 
 .Secundaria{
@@ -79,6 +79,12 @@ html img{
   border: 1px solid black;
   display: flex;
   align-items: center;
+}
+
+.Secundaria div a{
+  color: black;
+  display: flex;
+  margin: -10% 45% 2% 45%;
 }
 
 #imagen-izquierda{
@@ -101,12 +107,6 @@ html img{
   box-shadow: 2px 2px #82c3a6;
   -webkit-box-shadow: 2px 2px #82c3a6;
   -moz-box-shadow: 20px 2px #82c3a6;
-}
-
-.Secundaria div a{
-  color: black;
-  display: flex;
-  margin: -10% 45% 2% 45%;
 }
 
 footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
@@ -228,8 +228,42 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
 @media (max-width: 900px) {
   .Contenido{
     width: 100%;
+  }
+  #Cabecera{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  #Cabecera ol{
+    display: block;
+    margin-left: -10%;
+  }
+  .Central{
     display: block;
     margin: auto;
+  }
+  .Secundaria{
+    display: block;
+    margin: auto;
+  }
+  footer{
+    width: 90%;
+    padding-left: 10%;
+    display: inline-block;
+  }
+  .contacto{width: 100%;}
+  .terminos{width: 100%;}
+  .redes-sociales{width: 100%;}
+  .derechos{width: 100%;}
+  .paisajes img{
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .retratos img{
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
   }
 }
 
