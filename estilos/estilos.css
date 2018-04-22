@@ -3,13 +3,16 @@
   font-family: 'Dancing Script', cursive;
 
 }
+
 html{
   background-color: #02010a;
   font-family: Dancing Script;
 }
+
 html img{
   box-shadow: 2px 2px #02010a
 }
+
 #Cabecera { /**Se aplica a las 3 hojas por igual**/
   font-family: Dancing Script;
   color: white;
@@ -17,53 +20,95 @@ html img{
   border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
+  animation: animacion 1s;
 }
+
+@keyframes animacion { /**Se aplica a las 3 hojas por igual**/
+  0%{
+    position: relative;
+    margin-top: 150%;
+  }
+  60%{
+    position: relative;
+    margin-top: -5%;
+  }
+  100%{
+    position: relative;
+    margin-top: 0%;
+  }
+}
+
+@-webkit-keyframes animacion { /**Se aplica a las 3 hojas por igual**/
+  0%{
+    position: relative;
+    margin-top: 150%;
+  }
+  60%{
+    position: relative;
+    margin-top: -5%;
+  }
+  100%{
+    position: relative;
+    margin-top: 0%;
+  }
+}
+
 #Cabecera h1{ /**Se aplica a las 3 hojas por igual**/
   text-shadow: 2px 2px #02010a;
   display: inline;
 }
+
 #Cabecera ol{ /**Se aplica a las 3 hojas por igual**/
   display:inline;
   margin-left: 50%;
   margin-top: 0.5%;
   margin-right: 0.5%;
 }
+
 .Central{
   background-color: #82c3a6;
 	display:block;
 }
+
 .Central img{
   margin: 1% 0% 1% 30%;
 }
+
 .Secundaria{
   background-color: #d5c75f;
   border: 1px solid black;
   display: flex;
   align-items: center;
 }
+
 #imagen-izquierda{
   margin: 2% 0% 10% 15%;
 }
+
 #imagen-izquierda:hover{
   transform: rotate(10deg);
   box-shadow: 2px 2px #82c3a6;
   -webkit-box-shadow: 2px 2px #82c3a6;
   -moz-box-shadow: 20px 2px #82c3a6;
 }
+
 #imagen-derecha{
   margin: 2% 0% 10% 15%;
 }
+
 #imagen-derecha:hover{
   transform:translate(20px,-5px);
   box-shadow: 2px 2px #82c3a6;
   -webkit-box-shadow: 2px 2px #82c3a6;
   -moz-box-shadow: 20px 2px #82c3a6;
 }
+
 .Secundaria div a{
   color: black;
   display: flex;
   margin: -10% 45% 2% 45%;
 }
+
 footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   background-color: #C6d5c5;
   display:flex;
@@ -71,61 +116,73 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
 }
+
 .contacto{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
   font-size: 14px;
 }
+
 .terminos{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
   font-size: 14px;
 }
+
 .redes-sociales{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
   font-size: 14px;
 }
+
 .derechos{ /**ES IGUAL PARA LAS 3 HOJAS**/
   width: 25%;
   height: 25%;
   margin: 1%;
   font-size: 14px;
 }
+
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A INDEX.HTML**/
 
 /**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
+
 .paisajes{
   background-color: #d5c75f;
   border: 1px solid black;
 }
+
 .paisajes img:first-child{
   margin: 1.5%;
   filter: blur(10px) !important;
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
 }
+
 .paisajes img:nth-child(even){
   margin: 1.5%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
 }
+
 .paisajes img:nth-child(3){
   margin: 1.5%;
   filter: sepia(90%);
   -webkit-filter: sepia(90%);
   -moz-filter: sepia(90%);
 }
+
 .paisajes img:nth-child(4){
   margin: 1.5%;
 }
+
 .paisajes img:nth-child(5){
   margin: 1.5%;
 }
+
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A PAISAJES.HTML**/
 
 /**INICIO DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
@@ -134,30 +191,36 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
   background-color: #d5c75f;
   border: 1px solid black;
 }
+
 .retratos img:first-child{
   margin: 1.5%;
   filter: blur(10px) !important;
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
 }
+
 .retratos img:nth-child(even){
   margin: 1.5%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
 }
+
 .retratos img:nth-child(3){
   margin: 1.5%;
   filter: sepia(90%);
   -webkit-filter: sepia(90%);
   -moz-filter: sepia(90%);
 }
+
 .retratos img:nth-child(4){
   margin: 1.5%;
 }
+
 .retratos img:nth-child(5){
   margin: 1.5%;
 }
+
 /**FIN DE LA HOJA DE ESTILOS CORRESPONDIENTE A RETRATOS.HTML**/
 
 /**Consideraciones generales mas slidein**/
@@ -165,7 +228,9 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
 @media (max-width: 900px) {
   .Contenido{
     width: 100%;
-}
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (min-width: 900px) {
@@ -173,6 +238,6 @@ footer{ /**ES IGUAL PARA LAS 3 HOJAS**/
     width: 900px;
     display: block;
     margin: auto;
+  }
 
-}
 }
